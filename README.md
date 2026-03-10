@@ -30,14 +30,49 @@ Flutter app xóa nền ảnh tự động bằng ML Kit Subject Segmentation, ch
 - Android 7.0+ (API 24+)
 - Flutter 3.x
 
-## Cài đặt
+## Cài đặt & Build
 
 ```bash
 git clone https://github.com/dinorin/background_remover.git
 cd background_remover
 flutter pub get
+```
+
+### Debug (chạy trực tiếp trên thiết bị)
+
+```bash
 flutter run
 ```
+
+### Release APK
+
+1. Tạo keystore (chỉ cần làm một lần):
+
+```bash
+keytool -genkey -v \
+  -keystore android/bgremover.jks \
+  -keyalg RSA -keysize 2048 -validity 10000 \
+  -alias bgremover
+```
+
+2. Tạo file `android/key.properties`:
+
+```properties
+storePassword=<mật khẩu keystore>
+keyPassword=<mật khẩu key>
+keyAlias=bgremover
+storeFile=../bgremover.jks
+```
+
+3. Build:
+
+```bash
+flutter build apk --release
+```
+
+APK output: `build/app/outputs/flutter-apk/app-release.apk`
+
+> **Lưu ý:** Giữ file `bgremover.jks` và `key.properties` cẩn thận — không commit lên git.
 
 ## Cấu trúc
 
