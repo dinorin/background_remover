@@ -1,6 +1,10 @@
 # Background Remover
 
 Flutter app xóa nền ảnh tự động bằng ML Kit Subject Segmentation, chạy hoàn toàn on-device, không cần internet.
+<img width="1080" height="2281" alt="image" src="https://github.com/user-attachments/assets/a49907ae-5775-4b0d-a6eb-eb4d5ce11b03" />
+<img width="1080" height="2281" alt="image" src="https://github.com/user-attachments/assets/9fbc34a0-b30b-44c9-801b-2dc2c812b9ee" />
+<img width="1080" height="2281" alt="image" src="https://github.com/user-attachments/assets/448702aa-e603-4819-82ba-3e6376816b6e" />
+
 
 ## Tính năng
 
