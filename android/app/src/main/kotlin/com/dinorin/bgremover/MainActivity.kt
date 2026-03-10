@@ -1,4 +1,4 @@
-package com.example.background_remover
+package com.dinorin.bgremover
 
 import io.flutter.embedding.android.FlutterActivity
 
