@@ -2,11 +2,9 @@
 
 Flutter app xóa nền ảnh tự động bằng ML Kit Subject Segmentation, chạy hoàn toàn on-device, không cần internet.
 
-<p align="center">
-  <img width="270" alt="Màn hình chính" src="https://github.com/user-attachments/assets/a49907ae-5775-4b0d-a6eb-eb4d5ce11b03" />
-  <img width="270" alt="Chọn ảnh" src="https://github.com/user-attachments/assets/9fbc34a0-b30b-44c9-801b-2dc2c812b9ee" />
-  <img width="270" alt="Sau khi xóa nền" src="https://github.com/user-attachments/assets/448702aa-e603-4819-82ba-3e6376816b6e" />
-</p>
+| Màn hình chính | Chọn ảnh | Sau khi xóa nền |
+|:-:|:-:|:-:|
+| <img width="270" src="https://github.com/user-attachments/assets/a49907ae-5775-4b0d-a6eb-eb4d5ce11b03" /> | <img width="270" src="https://github.com/user-attachments/assets/9fbc34a0-b30b-44c9-801b-2dc2c812b9ee" /> | <img width="270" src="https://github.com/user-attachments/assets/448702aa-e603-4819-82ba-3e6376816b6e" /> |
 
 
 ## Tính năng
